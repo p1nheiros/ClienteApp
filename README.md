@@ -9,7 +9,7 @@
 
   <h1 align="center">ClienteApp - Sistema de Gerenciamento de Clientes</h1>
 
-  > Este é um sistema de gerenciamento de clientes (CRUD - Create, Read, Update, Delete) desenvolvido em C#. Ele permite cadastrar, listar, atualizar e excluir registros de clientes, com validações robustas e controle de concorrência utilizando PostgreSQL.
+  > Este é um sistema de gerenciamento de clientes (CRUD) desenvolvido em C#. Ele permite cadastrar, listar, atualizar e excluir registros de clientes, com validações robustas e controle de concorrência utilizando PostgreSQL.
 
   <a href="https://github.com/p1nheiros/ClienteApp"><strong>➥ Visualizar Projeto</strong></a>
 

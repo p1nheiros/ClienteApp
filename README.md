@@ -11,7 +11,7 @@
 
   > Este é um sistema de gerenciamento de clientes (CRUD - Create, Read, Update, Delete) desenvolvido em C#. Ele permite cadastrar, listar, atualizar e excluir registros de clientes, com validações robustas e controle de concorrência utilizando PostgreSQL.
 
-  <a href="https://github.com/p1nheiros/crud-clientes"><strong>➥ Visualizar Projeto</strong></a>
+  <a href="https://github.com/p1nheiros/ClienteApp"><strong>➥ Visualizar Projeto</strong></a>
 
 </div>
 
@@ -47,30 +47,29 @@ Para executar o repositório localmente, execute este comando no seu git bash:
 Linux and macOS:
 
 ```bash
-sudo git clone https://github.com/p1nheiros/crud-clientes.git
+sudo git clone https://github.com/p1nheiros/ClienteApp.git
 ```
 
 Windows:
 
 ```bash
-git clone https://github.com/p1nheiros/crud-clientes.git
+git clone https://github.com/p1nheiros/ClienteApp.git
 ```
 
 ### 🚀 Como Usar
 
 1. **Baixar o Executável**
-   - Baixe o arquivo `ClienteApp.exe` clicando [aqui](code/ClienteApp/ClienteApp/bin/Debug/ClienteApp.exe).
-   - Ou clone o repositório e compile no Visual Studio.
+   - Clone o repositório e compile no Visual Studio.
 
 2. **Configurar Banco de Dados**
    - Certifique-se de que o PostgreSQL está instalado e rodando.
-   - Altere a lihha de conexão com o Postgres com suas credenciais:
-     ```csharp
-     private readonly string connectionString = "Host=localhost;Port=5432;Username=postgres;Password=postgres;Database=clientes_db";
-     ```
    - Crie o banco de dados:
      ```sql
      CREATE DATABASE clientes_db;
+     ```
+   - Altere a lihha de conexão com o Postgres com suas credenciais:
+     ```csharp
+     private readonly string connectionString = "Host=localhost;Port=5432;Username=postgres;Password=postgres;Database=clientes_db";
      ```
    - Crie a tabela `clientes`:
      ```sql
@@ -82,7 +81,7 @@ git clone https://github.com/p1nheiros/crud-clientes.git
      ```
 
 3. **Executar a Aplicação**
-   - Abra o arquivo `ClienteApp.exe`.
+   - Abra o arquivo `ClienteApp.exe` seguindo o caminho `ClienteApp\code\ClienteApp\ClienteApp\bin\Debug`.
    - Insira os dados no formulário e use os botões para realizar as operações.
 
 ### 👨‍💻 Desenvolvedor
